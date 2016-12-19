@@ -9,7 +9,7 @@ function detTime(hour, minute, period){
   }
 switch (1){
   case minute < 30: return "just after "+hour + postTime;
-    default: return "al   most " + (hour+ 1) + postTime;
+    default: return "almost " + (hour+ 1) + postTime;
 }
 }
 console.log(detTime(8,25,"am"));
